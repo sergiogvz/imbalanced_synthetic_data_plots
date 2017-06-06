@@ -15,11 +15,11 @@ The repository contains the following files:
 - **smotesData.R** executes other important over-sampling methods implemented in the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package of R and [ROSE](https://cran.r-project.org/web/packages/ROSE/index.htmll)
 - **plot_file.py** plots the results obtained with  *smotesData.R*, giving the generated files as parameter.
 
-### Included Methods and some examples
+## Included Methods and some examples
 Starting from the a 4x4 Chess data with 1000 instances and 10% of the minority class (*div=5*; *N=1000*; *per=0.1*): 
 ![DSoriginal](./plots/chess4x4_n1000_1.0DT.png)
 ![DSimbalanced](./plots/chess4x4_n1000_0.1DT.png)
-#### Over-sampling methods
+### Over-sampling methods
 
  - ADASYN ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
  ![ADASYN](./plots/ADASYN4x4_n1000_0.1DT.png)
