@@ -22,7 +22,7 @@ Starting from the a 4x4 Chess data with 1000 instances and 10% of the minority c
 #### Over-sampling methods
 
  - ADASYN ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
- ![ADASYN](./plots/ADASYN4x4_n1000_0.1DT.png.png)
+ ![ADASYN](./plots/ADASYN4x4_n1000_0.1DT.png)
  - BLSMOTE ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
  ![BLSMOTE](./plots/BLSMOTE4x4_n1000_0.1DT.png)
  - DBSMOTE ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
