@@ -7,7 +7,6 @@ install.packages('igraph')
 install.packages("ROSE")
 require(smotefamily)
 require(ROSE)
-setwd("/Users/sergio/Dropbox/imbalanced_synthetic_data_plots")
 seedp <- 123123
 div <- 4
 N <- 1000

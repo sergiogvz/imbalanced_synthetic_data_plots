@@ -53,6 +53,6 @@ for i, color in zip([0,1], plot_colors):
 
 plt.title(name.replace(".txt", ""))
 plt.legend()
-plt.savefig('plots/'+name+'DT.eps')
+plt.savefig('plots/'+name.replace(".txt","")+'DT.eps')
 plt.show()
 
