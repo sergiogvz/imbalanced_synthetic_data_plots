@@ -17,10 +17,22 @@ The repository contains the following files:
 
 ### Included Methods and some examples
 Starting from the a 4x4 Chess data with 1000 instances and 10% of the minority class (*div=5*; *N=1000*; *per=0.1*): 
-![DSoriginal](./plots/chess4x4_n1000_1.0DT.eps)
-![DSimbalanced](./plots/chess4x4_n1000_0.01T.eps)
+![DSoriginal](./plots/chess4x4_n1000_1.0DT.png)
+![DSimbalanced](./plots/chess4x4_n1000_0.01T.png)
 #### Over-sampling methods
 
- - ADASYS (imblearn, default parameters)
+ - ADASYS ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+ - BLSMOTE ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ - DBSMOTE ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ - MWMOTE ([MWMOTE GitHub repo](https://cran.r-project.org/web/packages/smotefamily/index.html), #Synthetic(N)=400)
+ - ROSE ([ROSE R package](https://cran.r-project.org/web/packages/ROSE/index.htmll), hmult.majo=0.1, hmult.mino=0.1)
+ - RSLS ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ - SLS ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ - SMOTE ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+ - SMOTEENN ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+ - SMOTETomek ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
 
 ### Under-samping methods
+- ITH ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+- NCL ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), n_neighbors=20)
+- OSS ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), k=1, n_seeds_S=100)
