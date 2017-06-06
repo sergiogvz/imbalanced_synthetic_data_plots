@@ -4,16 +4,16 @@ This repository provides the code necessary to design an graphical analysis of t
 
 The repository contains the following files:
 
- - **plot_synthetic.py** generates the synthetic data and executes all the sampling methods of the [imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html).  Its parameters goes as followed:
+- **plot_synthetic.py** generates the synthetic data and executes all the sampling methods of the [imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html).  Its parameters goes as followed:
 
-> 1st parameter (*div*): shape of the chess board.
-> 2nd parameter (*N*): number of instances for the balanced dataset (N/2 for each class).
-> 3rd parameter (*per*): percentage of instances that conform the imbalanced data set (value in [0,1]).
+ - 1st parameter (*div*): shape of the chess board.
+ - 2nd parameter (*N*): number of instances for the balanced dataset (N/2 for each class).
+ - 3rd parameter (*per*): percentage of instances that conform the imbalanced data set (value in [0,1]).
 
- - **plot_syntheticMWMOTE.py** does the same as *plot_synthetic.py*, but with the [MWMOTE](https://github.com/yen-von/MWMOTE) method.
- - **MWMOTE.py** implements the [MWMOTE](http://ieeexplore.ieee.org/document/6361394/) method provided in its [GitHub repo](https://github.com/yen-von/MWMOTE).
- - **smotesData.R** executes other important over-sampling methods implemented in the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package of R and [ROSE](https://cran.r-project.org/web/packages/ROSE/index.htmll)
- - **plot_file.py** plots the results obtained with  *smotesData.R*, giving the generated files as parameter.
+- **plot_syntheticMWMOTE.py** does the same as *plot_synthetic.py*, but with the [MWMOTE](https://github.com/yen-von/MWMOTE) method.
+- **MWMOTE.py** implements the [MWMOTE](http://ieeexplore.ieee.org/document/6361394/) method provided in its [GitHub repo](https://github.com/yen-von/MWMOTE).
+- **smotesData.R** executes other important over-sampling methods implemented in the [smotefamily](https://cran.r-project.org/web/packages/smotefamily/index.html) package of R and [ROSE](https://cran.r-project.org/web/packages/ROSE/index.htmll)
+- **plot_file.py** plots the results obtained with  *smotesData.R*, giving the generated files as parameter.
 
 ### Included Methods and some examples
 Starting from the a 4x4 Chess data with 1000 instances and 10% of the minority class (*div=5*; *N=1000*; *per=0.1*): 
