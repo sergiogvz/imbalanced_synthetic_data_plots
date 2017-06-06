@@ -17,7 +17,8 @@ The repository contains the following files:
 
 ### Included Methods and some examples
 Starting from the a 4x4 Chess data with 1000 instances and 10% of the minority class (*div=5*; *N=1000*; *per=0.1*): 
-
+![DSoriginal](./plots/chess4x4_n1000_1.0DT.eps)
+![DSimbalanced](./plots/chess4x4_n1000_0.01T.eps)
 #### Over-sampling methods
 
  - ADASYS (imblearn, default parameters)
