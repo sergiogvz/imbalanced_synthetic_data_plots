@@ -18,21 +18,34 @@ The repository contains the following files:
 ### Included Methods and some examples
 Starting from the a 4x4 Chess data with 1000 instances and 10% of the minority class (*div=5*; *N=1000*; *per=0.1*): 
 ![DSoriginal](./plots/chess4x4_n1000_1.0DT.png)
-![DSimbalanced](./plots/chess4x4_n1000_0.01T.png)
+![DSimbalanced](./plots/chess4x4_n1000_0.1T.png)
 #### Over-sampling methods
 
  - ADASYS ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+ ![ADASYS](./plots/ADASYS4x4_n1000_1.0DT.png)
  - BLSMOTE ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ ![BLSMOTE](./plots/BLSMOTE4x4_n1000_1.0DT.png)
  - DBSMOTE ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ ![DBSMOTE](./plots/DBSMOTE4x4_n1000_1.0DT.png)
  - MWMOTE ([MWMOTE GitHub repo](https://cran.r-project.org/web/packages/smotefamily/index.html), #Synthetic(N)=400)
+ ![MWMOTE](./plots/MWMOTE4x4_n1000_1.0DT.png)
  - ROSE ([ROSE R package](https://cran.r-project.org/web/packages/ROSE/index.htmll), hmult.majo=0.1, hmult.mino=0.1)
+ ![ROSE](./plots/ROSE4x4_n1000_1.0DT.png)
  - RSLS ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ ![RSLS](./plots/RSLS4x4_n1000_1.0DT.png)
  - SLS ([smotefamily R package](https://cran.r-project.org/web/packages/smotefamily/index.html), default parameters)
+ ![SLS](./plots/SLS4x4_n1000_1.0DT.png)
  - SMOTE ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+ ![SMOTE](./plots/SMOTE4x4_n1000_1.0DT.png)
  - SMOTEENN ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+ ![SMOTEENN](./plots/SMOTEENN4x4_n1000_1.0DT.png)
  - SMOTETomek ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+ ![SMOTETomek](./plots/SMOTETomek4x4_n1000_1.0DT.png)
 
 ### Under-samping methods
 - ITH ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), default parameters)
+![ITH](./plots/ITH4x4_n1000_1.0DT.png)
 - NCL ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), n_neighbors=20)
+![NCL](./plots/NCL4x4_n1000_1.0DT.png)
 - OSS ([imblearn package](http://contrib.scikit-learn.org/imbalanced-learn/index.html), k=1, n_seeds_S=100)
+![OSS](./plots/OSS4x4_n1000_1.0DT.png)
